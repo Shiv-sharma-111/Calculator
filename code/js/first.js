@@ -62,3 +62,24 @@ function show(x) {
   box.value+=x;
 
 }
+function del() {
+  var box = document.getElementById('display1');
+  var string = document.getElementById('display1').value;
+  if(box)
+  {
+    box.value=string.substring(0,string.length-1);
+  }
+}
+function oper(x) {
+  var box = document.getElementById('display1');
+  if(box.value.length>0)
+  {
+    box.value+=x;
+  }
+}
+function answer() {
+
+}
+function solve() {
+
+}
