@@ -22,7 +22,7 @@ function fact()
   }
   box.value+=a;
 }
-function square()
+/*function square()
 {
   var box = document.getElementById('display1');
   var num = prompt("number");
@@ -35,6 +35,16 @@ function square()
     box.value+='';
   }
 
+}*/
+function pi() {
+  var box = document.getElementById('display1');
+  var pi =Math.PI
+  box.value += pi;
+}
+function e() {
+   var box = document.getElementById('display1');
+   var e=Math.else
+   box.value+=e;
 }
 function sqrt()
 {
@@ -49,14 +59,14 @@ function sqrt()
     box.value+='';
   }
 }
-function power(x)
+/*function power(x)
 {
   var box = document.getElementById('display1');
   if(box.value.length>0)
   {
     box.value+=x;
   }
-}
+}*/
 function show(x) {
   var box = document.getElementById('display1');
   box.value+=x;
