@@ -26,15 +26,28 @@ function square()
 {
   var box = document.getElementById('display1');
   var num = prompt("number");
-  var x=num*num;
-  box.value+=x;
+  if(num)
+  {
+    var x=num*num;
+    box.value+=x;
+  }
+  else {
+    box.value+='';
+  }
+
 }
 function sqrt()
 {
   var box = document.getElementById('display1');
   var num = prompt("number");
-  var x=Math.sqrt(num);
-  box.value+=x;
+  if(num)
+  {
+    var x=Math.sqrt(num);
+    box.value+=x;
+  }
+  else {
+    box.value+='';
+  }
 }
 function power(x)
 {
