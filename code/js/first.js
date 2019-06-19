@@ -78,6 +78,9 @@ function oper(x) {
   }
 }
 function answer() {
+  var box1 = document.getElementById('display1');
+  var box2 = document.getElementById('display2');
+  box1.value=box2.value;
 
 }
 function solve() {
@@ -87,4 +90,8 @@ function solve() {
     a=eval(a);
     box2.value =a;
     console.log("=)"+box1.value+" ="+box2.value);
+}
+function clr() {
+  var box1 = document.getElementById('display1');
+  box1.value="";
 }
