@@ -1,16 +1,16 @@
-//alert("Hii Welcome To my calculator");
-/*function trigonometry(x) {
+alert("implementation of first five keys are left");
+function trigonometry(x) {
   var box = document.getElementById('display1');
   //declaring the values of sin cos Tan
-  var sin = "Math.abs(Math.sin(";
-  var cos = "Math.abs(Math.cos(";
-  var tan = "Math.abs(Math.tan(";
+  var sin = "Math.abs(Math.sin)";
+  var cos = "Math.abs(Math.cos)";
+  var tan = "Math.abs(Math.tan)";
   if(x=='sin')
   {
     box.value +=sin
   }
 
-}*/
+}
 function fact()
 {
   var box = document.getElementById('display1');
@@ -103,5 +103,8 @@ function solve() {
 }
 function clr() {
   var box1 = document.getElementById('display1');
+  var box2 = document.getElementById('display2');
   box1.value="";
+  box2.value="";
+
 }
