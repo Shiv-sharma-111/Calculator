@@ -29,3 +29,19 @@ function square()
   var x=num*num;
   box.value+=x;
 }
+function sqrt()
+{
+  var box = document.getElementById('display1');
+  var num = prompt("number");
+  var x=Math.sqrt(num);
+  box.value+=x;
+}
+function power(x)
+{
+  var box = document.getElementById('display1');
+  if(box.value.length>0)
+  {
+    box.value+=x;
+  }
+
+}
