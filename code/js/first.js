@@ -81,5 +81,10 @@ function answer() {
 
 }
 function solve() {
-
+    var box1 = document.getElementById('display1');
+    var box2 = document.getElementById('display2');
+    var a=box1.value;
+    a=eval(a);
+    box2.value =a;
+    console.log("=)"+box1.value+" ="+box2.value);
 }
