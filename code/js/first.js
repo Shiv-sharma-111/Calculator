@@ -56,5 +56,9 @@ function power(x)
   {
     box.value+=x;
   }
+}
+function show(x) {
+  var box = document.getElementById('display1');
+  box.value+=x;
 
 }
