@@ -1,4 +1,8 @@
 alert("implementation of first five keys are left");
+function log() {
+  var box = document.getElementById('display1');
+
+}
 function trigonometry(x) {
   var box = document.getElementById('display1');
   //declaring the values of sin cos Tan
