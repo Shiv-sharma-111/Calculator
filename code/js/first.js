@@ -1,4 +1,4 @@
-alert("implementation of first five keys are left");
+alert("implementation of last five keys are left");
 function log() {
   var box = document.getElementById('display1');
 
