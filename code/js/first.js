@@ -1,17 +1,31 @@
-alert("implementation of last five keys are left");
+console.log("History:")
 function log() {
   var box = document.getElementById('display1');
 
 }
-function trigonometry(x) {
+function log()
+{
+  var box = document.getElementById('display1');
+  var log = "Math.log(";
+  box.value+=log
+}
+function trig(x) {
   var box = document.getElementById('display1');
   //declaring the values of sin cos Tan
-  var sin = "Math.abs(Math.sin)";
-  var cos = "Math.abs(Math.cos)";
-  var tan = "Math.abs(Math.tan)";
+  var sin = "Math.abs(Math.sin(";
+  var cos = "Math.abs(Math.cos(";
+  var tan = "Math.abs(Math.tan)(";
   if(x=='sin')
   {
     box.value +=sin
+  }
+  if(x=='cos')
+  {
+    box.value +=cos
+  }
+  if(x=='tan')
+  {
+    box.value +=tan
   }
 
 }
@@ -47,7 +61,7 @@ function pi() {
 }
 function e() {
    var box = document.getElementById('display1');
-   var e=Math.else
+   var e=Math.E
    box.value+=e;
 }
 function sqrt()
